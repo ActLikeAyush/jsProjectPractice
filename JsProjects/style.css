@@ -1,0 +1,47 @@
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.colorEl{
+    background-color: rgb(14, 47, 103);
+    width: 600px;
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.button{
+    width: 100px;
+    background-color: rgb(235, 244, 253);
+    height: 80px;
+    border: 2px solid rgb(0, 0, 0);
+    color: rgb(0, 42, 42);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    box-shadow: -1px 4px 6px 1px rebeccapurple;
+    text-align: center;
+}
+.button:hover{
+    color: rgb(105, 42, 42);
+    width: 110px;
+    height: 85px;
+    box-shadow: -1px 4px 9px 5px rgb(119, 18, 220);
+
+    
+}
+
+#grey:hover{
+    background-color: rgb(108, 104, 104);
+}
+#blue:hover{
+    background-color: blue;
+}
+#whait:hover{
+    background-color: whitesmoke;
+}
+#yellow:hover{
+    background-color: yellow;
+}
