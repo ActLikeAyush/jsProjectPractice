@@ -1,0 +1,81 @@
+.con{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.game{
+    width: 600px;
+    background-color: cornflowerblue;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+#H{
+    font-family: math;
+    color: rgb(119, 0, 0);
+    background: cadetblue;
+}
+#in{
+    background-color: aliceblue;
+    width: 300px;
+    height: 30px;
+    border: 4px solid aliceblue;
+    border-radius: 4px;
+}
+#bu{
+    width: 180px;
+    height: 60px;
+    border: 4px solid rgb(123, 7, 123);
+    border-radius: 10px;
+    background-color: rgb(123, 7, 123) ;
+    position: relative;
+    top: 24px;
+    left: 63px;
+    font-size: 29px;
+    font-family: monospace;
+    color: aliceblue;
+}
+#G{
+    background-color: rgb(4, 90, 61);
+    height: 30px;
+    font-size: 20px;
+    color: aliceblue;
+}
+#Re{
+    width: 180px;
+    height: 60px;
+    border: 4px solid rgb(123, 7, 7);
+    border-radius: 10px;
+    background-color: rgb(123, 7, 7) ;
+    font-size: 29px;
+    font-family: monospace;
+    color: aliceblue;
+    /* justify-items: end; */
+
+}
+#new{
+    width: 180px;
+    height: 60px;
+    border: 4px solid rgb(7, 123, 44);
+    border-radius: 10px;
+    background-color: rgb(7, 123, 42) ;
+    font-size: 29px;
+    font-family: monospace;
+    color: aliceblue;
+    /* align-content: start; */
+}
+#A{
+    color: aliceblue;
+}
+.win{
+    height: 63px;
+    background-color: #004144;
+    font-size: 38px;
+    font-family: cursive;
+    color: chartreuse;
+    width: 365px;
+    text-align: center;
+}
